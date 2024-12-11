@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "FormBuilderApp",
+    "slug": "FormBuilderApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/app-icon.png", 
+    "splash": {
+      "image": "./assets/images/splash.png", 
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "platforms": ["ios", "android"],
+    "ios": {
+      "bundleIdentifier": "com.formbuilderapp",  
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.formbuilderapp", 
+      "versionCode": 1
+    },
+    "description": "A form builder app for creating and editing forms with various question types"
+  }
+}
